@@ -6,7 +6,7 @@ let btn = document.querySelector('button'); */
 
 const caminho = 'C:/Users/Djiny Depp/Downloads';
 let a = fs.readdir( caminho);
-
+    fs.chmod(caminho,)
 a.then((d)=>{
     d.forEach((el)=>{
         if(el.match(/\.mp3$/)){

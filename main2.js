@@ -1,6 +1,6 @@
 const fs = require('fs').promises;
 const path =  require('path');
-const caminho1 = 'C:/Users/Djiny Depp/Desktop/Nova pasta (2)';
+const caminho1 = 'C:/Users/Djiny Depp/Downloads';
 
  receiveData(caminho1);
 
@@ -33,4 +33,5 @@ function renameFile(data, caminho){
         });
 
     })
+    
 }
